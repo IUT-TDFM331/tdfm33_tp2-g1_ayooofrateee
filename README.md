@@ -23,6 +23,10 @@ On peut en conclure qui y a enormement de calcul et donc les tests prennent du t
 
 ##A10
 
+- Rien de particulier à part une pastille marron.
+
+##13
+
 ## Contributors
 - Oumarov Adam
 - Bourgeat Maxence
