@@ -27,6 +27,8 @@ On peut en conclure qui y a enormement de calcul et donc les tests prennent du t
 
 ##13
 
+- Dans le repo Github il ya une erreur, le test run a failed.
+
 ## Contributors
 - Oumarov Adam
 - Bourgeat Maxence

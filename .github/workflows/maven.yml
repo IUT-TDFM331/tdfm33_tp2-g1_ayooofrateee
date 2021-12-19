@@ -21,3 +21,23 @@ jobs: # list des jobs à effectuer
 
       - name: Build the tests #
           run: mvn test
+
+      - name: envoyer un mail #
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: iuts3.class
+          password: kvkekkddxgmibljv
+          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+          to: oumarov.adam@gmail.com
+          from: GitHub
+
+      - name: envoyer un msg slack
+          if: always()
+          id: slack
+          uses: slackapi/slack-github-action@v1.16.0
+          env:
+            SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
+
