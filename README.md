@@ -15,11 +15,17 @@ On peut en conclure qui y a enormement de calcul et donc les tests prennent du t
 
 ##A6
 
-- 
+- Dans le repo Github il y a une erreur dans le build ce qui empêche la compilation.
 
+##A9
+
+- badTest ne fonctionne pas.
+
+##A10
 
 ## Contributors
+- Oumarov Adam
 - Bourgeat Maxence
 - Djendli Christophe
-- Oumarov Adam
+
 
